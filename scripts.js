@@ -1,3 +1,5 @@
+const app = new Controller(new Model(), new View());
+
 class Model {
   constructor() {
     // The state of the model, an array of todo objects, prepopulated with some data
@@ -95,5 +97,3 @@ class Controller {
     this.view = view;
   }
 }
-
-const app = new Controller(new Model(), new View());
